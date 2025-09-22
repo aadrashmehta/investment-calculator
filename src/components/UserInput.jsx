@@ -3,23 +3,23 @@ export default function UserInput({ onChangeInput, userInput}) {
     <section id="user-input">
       <div className="input-group">
         <p>
-          <label>Initial Investment</label>
-          <input type="number" onChange={(e) => onChangeInput('initialInvestment', e.target.value)} value={userInput.initialInvestment}  required/>
+          <label htmlFor="inital-investement">Initial Investment</label>
+          <input type="number" id="inital-investement" onChange={(e) => onChangeInput('initialInvestment', e.target.value)} value={userInput.initialInvestment}  required/>
         </p>
         <p>
-          <label>Annual Investment</label>
-          <input type="number" onChange={(e) => onChangeInput('annualInvestment', e.target.value)} value={userInput.annualInvestment}
+          <label htmlFor="annual-investment">Annual Investment</label>
+          <input type="number" id="annual-investment" onChange={(e) => onChangeInput('annualInvestment', e.target.value)} value={userInput.annualInvestment}
            required />
         </p>
         </div>
         <div className="input-group">
         <p>
-          <label>Expected Return</label>
-          <input type="number" onChange={(e) => onChangeInput('expectedReturn', e.target.value)} value={userInput.expectedReturn} required  />
+          <label htmlFor="return">Expected Return</label>
+          <input type="number" id="return" onChange={(e) => onChangeInput('expectedReturn', e.target.value)} value={userInput.expectedReturn} required  />
         </p>
         <p>
-          <label>Duration</label>
-          <input type="number" onChange={(e) => onChangeInput('duration', e.target.value)} value={userInput.duration} required />
+          <label htmlFor="duration">Duration</label>
+          <input type="number" id="duration" onChange={(e) => onChangeInput('duration', e.target.value)} value={userInput.duration} required />
         </p>
         </div>
     </section>
