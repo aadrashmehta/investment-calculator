@@ -60,8 +60,12 @@ body {
   border: 1px solid #76c0ae;
   border-radius: 0.25rem;
   background-color: transparent;
-  color: #c2e9e0;
+  color: #fff;
   font-size: 1rem;
+}
+
+#user-input input::placeholder {
+  color: #ffffff8e;
 }
 
 #result {
