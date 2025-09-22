@@ -74,7 +74,7 @@ body {
   padding: 1rem;
   table-layout: fixed;
   border-spacing: 1rem;
-  text-align: right;
+  text-align: center;
 }
 
 #result thead {
@@ -91,3 +91,27 @@ body {
 .center {
   text-align: center;
 }
+
+#currency-selector {
+  min-width: 4rem;
+  margin-left: .5rem;
+}
+
+.input-group.currency-wrapper {
+  margin: 0 auto;
+}
+.input-group.currency-wrapper p {
+  margin: 0.5px auto;
+}
+
+@media screen and (max-width: 600px) {
+  #header {
+    margin: 1rem auto
+  }
+  #user-input {
+    margin: 1rem auto 0;
+  }
+  #result {
+    margin: 0 auto 1rem;
+  }
+} 
