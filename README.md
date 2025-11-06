@@ -11,9 +11,9 @@ It allows users to estimate the growth of their investments over time based on i
 
 ## Getting Started
 
-2. **Clone Repositiory:**
+1. **Clone Repositiory:**
    ```sh
    git clone https://github.com/aadrashmehta/investment-calculator.git
-1. **Install dependencies:**
+2. **Install dependencies:**
    ```sh
    npm install
